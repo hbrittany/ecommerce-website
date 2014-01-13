@@ -1,7 +1,10 @@
 /*
   Colour Palette
-  - Dark green: #060 - rgb(0, 100, 0)
-  - Dark red: #600 - rgb(100, 0, 0)
+  - Light purple: #dec1f9 - rgb(222, 193, 249)
+  - Purple: #aa89fa - rgb(170, 137, 250)
+  - Light blue: #3088d0 - rgb(48, 136, 208)
+  - Mid blue: #0f50ae - rgb(15, 80, 174)
+  - Dark blue: #152e7e - rgb(21, 46, 126)
  */
 
 html {
@@ -15,17 +18,17 @@ html {
 
 a,
 a:link{
-	color: red;
+	color: #060;
 	text-decoration: none;
 	border-bottom: .1rem solid rgba(255,0,0,0.5);
-  transition: all 200ms linear;
+  	transition: all 200ms linear;
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: pink;
-  border-bottom-color: pink;
+  color: #aa89fa;
+  border-bottom-color: #aa89fa;
 }
 
 a:visited {
