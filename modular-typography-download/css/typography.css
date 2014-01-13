@@ -18,7 +18,7 @@ html {
 
 a,
 a:link{
-	color: #060;
+	color: #3088d0;
 	text-decoration: none;
 	border-bottom: .1rem solid rgba(255,0,0,0.5);
   	transition: all 200ms linear;
@@ -40,6 +40,10 @@ h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl,
 blockquote, table, hr {
   margin: 0 0 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Elsie', cursive;
 }
 
 .yotta {
