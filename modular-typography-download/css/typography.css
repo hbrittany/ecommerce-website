@@ -4,36 +4,36 @@
   - Purple: #aa89fa - rgb(170, 137, 250)
   - Light blue: #3088d0 - rgb(48, 136, 208)
   - Mid blue: #0f50ae - rgb(15, 80, 174)
-  - Dark blue: #152e7e - rgb(21, 46, 126)
+  - Dark blue: #152e7e  - rgb(21, 46, 126)
  */
 
 html {
 	font: normal 100%/1.5 IM Fell French Canon,serif;  /* 16px/24px */
+  background-color: #FFF;
 }
 
 ::selection {
-	background-color: blue;
+	background-color: #152e7e;
 	color: #fff;	
 }
 
 a,
 a:link{
-	color: #3088d0;
+  color: #0f50ae;
 	text-decoration: none;
-	border-bottom: .1rem solid rgba(255,0,0,0.5);
+	border-bottom: .2rem solid rgba(48,136,208,1);
   	transition: all 200ms linear;
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #aa89fa;
   border-bottom-color: #aa89fa;
 }
 
 a:visited {
-  color:fuchsia;
-  border-bottom-color:fuchsia;
+  color: #dec1f9;
+  border-bottom-color: #dec1f9;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -43,7 +43,8 @@ blockquote, table, hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Elsie', cursive;
+  font-family: 'Mystery Quest', cursive;
+  color: #0f50ae;
 }
 
 .yotta {
@@ -105,8 +106,18 @@ ul li {
 }
 
 ul li:before {
-  content:"↠";
-  color: fuchsia;
+  content:"⤇";
+  color: #3088d0;
   position: absolute;
   left: -1.2rem;
+}
+
+ol {
+  list-style-type: none;
+}
+
+ol li:before {
+  content: counter ;
+  color: #3088d0;
+
 }
