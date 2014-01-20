@@ -112,12 +112,17 @@ ul li:before {
   left: -1.2rem;
 }
 
-ol {
-  list-style-type: none;
+ol li:before {
+  color: #3088d0;
 }
 
-ol li:before {
-  content: counter ;
-  color: #3088d0;
+dl dt {
+  font-weight: bold;
+  color:#3088d0;;
+}
 
+mark{
+  background-color:#3088d0;
+  color:white;
+  padding:.2rem;
 }
