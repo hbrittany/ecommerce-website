@@ -3,6 +3,15 @@
 
 
 .nav {
-	background-color: red;
+	float:right;
 }
 
+.nav li{
+	border-radius: 20px;
+	width:70px;
+	text-align: center;
+}
+
+.nav a{
+	color: #fff;
+}
