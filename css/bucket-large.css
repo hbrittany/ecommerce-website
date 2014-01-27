@@ -10,6 +10,11 @@
 	margin: 0 10px 0 0;
 }
 
+.media-img-rvr{
+	float: right;
+	margin: 0 0 0 10px;
+}
+
 .media-body {
 	overflow:hidden;
 }
@@ -17,5 +22,4 @@
 .media-img-stack{
 	float: none;
 	margin:0;
-	border-radius: 35px;
 }
