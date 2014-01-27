@@ -6,12 +6,12 @@
 	float:right;
 }
 
-.nav li{
+.nav li {
 	border-radius: 20px;
 	width:70px;
 	text-align: center;
 }
-
-.nav a{
+ 
+.nav a {
 	color: #fff;
 }
