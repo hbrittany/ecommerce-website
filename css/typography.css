@@ -22,7 +22,9 @@ a:link{
   color: #0f50ae;
 	text-decoration: none;
 	border-bottom: .15rem solid rgba(48,136,208,1);
-  	transition: all 200ms linear;
+  transition: all 200ms linear;
+  font-family: 'Mystery Quest', cursive;
+
 }
 
 a:hover,
