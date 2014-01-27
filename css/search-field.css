@@ -1,19 +1,33 @@
 @charset "UTF-8";
 /* CSS Document */
 
-#search input[type="text"] {
-    background: url(search-dark.png) no-repeat 10px 6px #444;
-    border: 0 none;
-    font: bold 12px Arial,Helvetica,Sans-serif;
-    color: #777;
-    width: 150px;
-    padding: 6px 15px 6px 35px;
-    border-radius: 20px;
-    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
-    transition: all 0.7s ease 0s;
-    }
+#search-box {
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
 
-#search input[type="text"]:focus {
-    width: 200px;
-    }
+#search-form {
+    height: 40px;
+    border: 1px solid #999;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+#search-text {
+    font-size: 14px;
+    color: #ddd;
+    border-width: 0;
+    background: transparent;
+}
+
+#search-box input[type="text"] {
+    width: 90%;
+    padding: 11px 0 12px 1em;
+    color: #333;
+    outline: none;
+}
+
