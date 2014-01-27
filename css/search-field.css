@@ -3,7 +3,7 @@
 
 #search-box {
     position: relative;
-    width: 100%;
+    width: 10%;
     margin: 0;
 }
 
@@ -25,7 +25,7 @@
 }
 
 #search-box input[type="text"] {
-    width: 90%;
+    width: 30px;
     padding: 11px 0 12px 1em;
     color: #333;
     outline: none;
