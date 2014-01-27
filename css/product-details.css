@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.prd {
+	overflow:hidden;
+}
+
+.prd-img {
+	float: none;
+	margin: 0 50px 0;
+}
+
+.prd-body {
+	padding:.5rem;
+	overflow:hidden;
+	width:190px;
+	text-align: center;
+}
+
+.colours img{
+	border-radius:20px;
+	margin-left:0;
+}
+
+.btn-prd{
+	margin: 0 60px 0;
+}
