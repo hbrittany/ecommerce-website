@@ -3,12 +3,11 @@
 
 
 .nav {
-	float:right;
+	color:#0f50ae;
+	padding-bottom:2rem;
 }
 
 .nav li {
-	border-radius: 20px;
-	width:70px;
 	text-align: center;
 }
  
@@ -17,6 +16,6 @@
 }
 
 .logo img {
-	width:40px;
-	position:center center;
+	width:60px;
+	padding: 1rem 50% 2rem;
 }
