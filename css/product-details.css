@@ -2,8 +2,9 @@
 /* CSS Document */
 
 
-.prd {
+.prd-info {
 	overflow:hidden;
+	padding-left:2rem;
 }
 
 .prd-img {
@@ -11,11 +12,11 @@
 	margin: 0 50px 0;
 }
 
-.prd-body {
+.prd-body-info {
 	padding:.5rem;
 	overflow:hidden;
 	width:190px;
-	text-align: center;
+	text-align: left;
 }
 
 .colours img{
@@ -26,3 +27,8 @@
 .btn-prd{
 	margin: 0 60px 0;
 }
+
+.prd-img-info {
+	float:right;
+}
+
