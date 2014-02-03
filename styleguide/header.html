@@ -5,27 +5,45 @@
 <title>Product</title>
 <link href="http://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Henny+Penny|Mystery+Quest|Spirax|Griffy|Berkshire+Swash' rel='stylesheet' type='text/css'>
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 <link href="../css/typography.css" rel="stylesheet">
 <link href="../css/header.css" rel="stylesheet">
 <link href="../css/list-group.css" rel="stylesheet">
-<link href="../css/buttons.css" rel="stylesheet">
+<link href="../css/grid.css" rel="stylesheet">
 </head>
 <body>
 
-<h1>Header</h1>
 
-<div class="nav">
-	<ul class="list-group">
-		<li class="list-group-item list-group-item-inline btn"><a href="#" class="micro">Link 1</a>
+
+<div class="grid logo">
+	<div class"logo unit-s-1 unit-m-1 unit-l-1">
+		<img src="../assets/logo.svg" alt="">
+	</div>
+</div>
+
+<div class="grid">
+	<ul class="list-group unit-s-1 unit-m-2-3 unit-l-2-3">
+		<li class="list-group-item list-group-item-inline"><a href="#" class="micro">Link 1</a>
 		</li>
-		<li class="list-group-item list-group-item-inline btn"><a href="#" class="micro">Link 2</a>
+		<li class="list-group-item list-group-item-inline"><a href="#" class="micro">Link 2</a>
 		</li>
-		<li class="list-group-item list-group-item-inline btn"><a href="#" class="micro">Link 3</a>
+		<li class="list-group-item list-group-item-inline"><a href="#" class="micro">Link 3</a>
 		</li>
-		<li class="list-group-item list-group-item-inline btn"><a href="#" class="micro">Link 4</a>
+		<li class="list-group-item list-group-item-inline"><a href="#" class="micro">Link 4</a>
 		</li>
 	</ul>
 </div>
+
+<div class="grid">
+<div id='search-box unit-s-1 unit-m-2-3 unit-l-2-3'>
+  <form action='/search' id='search-form' method='get' target='_top'>
+    <input id='search-text' name='q' placeholder='Searching for...' type='text'/>
+    <button class="btn btn-alt" id='search-button' type='submit'><span>Search</span></button>
+  </form>
+</div>
+</div>
+
+<h1>Header</h1>
 
 </body>
 </html>
