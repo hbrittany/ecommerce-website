@@ -1,14 +1,19 @@
 @charset "UTF-8";
 /* CSS Document */
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
 .footer {
-	width:100%;
+	
 	background-color: #000;
 	color:#fff;
 	padding:.5rem;
 	margin:0;
 	text-align: right;
-	position: absolute;
-	bottom:0;
+	
 }
 
 .footer p{
