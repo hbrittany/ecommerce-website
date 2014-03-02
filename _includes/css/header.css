@@ -3,8 +3,9 @@
 
 
 .nav {
-	color:#0f50ae;
-	padding-bottom:2rem;
+	background-color: #000;
+	color:#fff;
+	margin:0;
 }
 
 .nav li {
@@ -15,7 +16,16 @@
 	color: #fff;
 }
 
+.unit{
+	background-color:#000;
+}
+
 .logo img {
 	width:60px;
 	padding: 1rem 50% 2rem;
+}
+
+.current {
+	color:#fff;
+	background-color:##0f50ae;
 }
