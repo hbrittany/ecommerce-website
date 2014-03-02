@@ -23,7 +23,7 @@ a:link{
 	text-decoration: none;
 	border-bottom: .15rem solid rgba(48,136,208,1);
   transition: all 200ms linear;
-  font-family: 'Mystery Quest', cursive;
+  font-family: 'Lily Script One', cursive;
 }
 
 a:hover,
@@ -44,7 +44,7 @@ blockquote, table, hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Mystery Quest', cursive;
+  font-family: 'Lily Script One', cursive;
   color: #0f50ae;
 }
 
