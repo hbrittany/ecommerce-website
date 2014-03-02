@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Ecommerce Website</title>
+<link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
 </head>
 
 <body>
@@ -12,8 +13,8 @@
 	<h1> </h1>
 	<nav>
 		<ul>
-			<li><a href="{{site.baseurl}}/index.html">Home</a></li>
-			<li><a href="{{site.baseurl}}/about.html">About</a></li>
+			<li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/index.html' %}current{% endif %}">Home</a></li>
+			<li><a href="{{site.baseurl}}/about.html" class="{% if page.url == '/index.html' %}current{% endif %}>About</a></li>
 		</ul>
 	</nav>	
 </header>
