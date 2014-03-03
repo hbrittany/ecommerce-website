@@ -37,6 +37,11 @@
 
 </header>
 
+{% if page.showbanner %}
+<div class="banner">
+	<h1 class="yotta">{{page.bannertext}}</h1>
+</div>
+{% endif %}
 
 <body>
 <content>
