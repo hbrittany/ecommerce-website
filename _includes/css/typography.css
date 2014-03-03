@@ -7,9 +7,11 @@
   - Dark blue: #152e7e  - rgb(21, 46, 126)
  */
 
-html {
+html,
+p {
 	font: normal 100%/1.5 Oxygen, sans-serif;;  /* 16px/24px */
   background-color: #FFF;
+  color:#000;
 }
 
 ::selection {
@@ -158,4 +160,9 @@ table caption {
 tr th{
     font-weight: bold;
     color:#3088d0;
+}
+
+footer p{
+  background-color:#000;
+  color:#FFF;
 }
