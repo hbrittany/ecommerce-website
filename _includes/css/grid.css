@@ -10,6 +10,11 @@
 	float: left;
 }
 
+.unit-black {
+	background-color: black;
+	float: left;
+}
+
 .unit-s-1 {
 	width: 100%;
 }
