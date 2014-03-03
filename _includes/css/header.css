@@ -1,20 +1,30 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
-.nav {
-	background-color: #000;
-	color:#fff;
+header{
+	top:0;
+	padding:0;
 	margin:0;
 }
 
-.nav li {
+nav {
+	background-color: #000;
+	color:#fff;
+	margin:0;
+	padding:1rem;
+	top:0;
+}
+
+nav li {
 	text-align: center;
+	color:#fff;
 }
- 
-.nav a {
-	color: #fff;
+
+nav a, 
+nav a:link {
+	color: #ffffff;
 }
+
 
 .unit{
 	background-color:#000;
@@ -22,10 +32,9 @@
 
 .logo img {
 	width:60px;
-	padding: 1rem 50% 2rem;
+	margin-left:1rem;
 }
 
 .current {
-	color:#fff;
-	background-color:##0f50ae;
+	color:#0f50ae;
 }
