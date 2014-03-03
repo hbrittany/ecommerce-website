@@ -13,6 +13,28 @@
 	padding-bottom:.5rem;
 }
 
+.promo {
+	background-color: #3088d0;
+	color: #fff;
+}
+
+.promo p {
+	background-color: #3088d0;
+	color: #fff;
+	margin:0;
+}
+
+.promo h4 {
+	color:#fff;
+	margin:0;
+}
+
+.unit-promo {
+	float: left;
+	color:black;
+	padding: .5rem;
+}
+
 .unit-black {
 	background-color: black;
 	float: left;

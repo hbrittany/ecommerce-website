@@ -1,14 +1,6 @@
 
-<h4>Promotions</h4>
-
-<div class="media">
-	
-	<div class="media-img img-flex">
-		<img src="http://placehold.it/256x256" alt="">
-	</div>
-
-	<div class="media-body media-body-sml">
-		<p class="micro">This is a magical deal!</p>
-	</div>
-
+<div class="grid promo">
+	<h4>{{include.title}}</h4>
+	<img class="img-flex" src="{{site.baseurl}}/assets/{{include.image}}" alt="">
+	<p>{{include.desc}}</p>
 </div>
