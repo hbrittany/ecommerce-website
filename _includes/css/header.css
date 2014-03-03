@@ -38,4 +38,5 @@ nav a:link {
 
 .current {
 	color:#0f50ae;
+	border-bottom: .15rem solid rgba(rgb15, 80, 174,1);
 }
