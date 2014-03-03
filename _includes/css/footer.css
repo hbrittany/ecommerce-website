@@ -9,24 +9,20 @@ body {
 footer {
 	background-color: #000;
 	color:#fff;
-	padding:.5rem;
+	padding:1rem;
 	margin:0;
 	
-}
-
-footer p{
-	padding-right:1rem;
 }
 
 .media {
 	width:30%;
 }
+
 .media img{
 	width:30px;
 	float: left;
 }
 
 .copyright p{
-	float:right;
 	width:40%;
 }
