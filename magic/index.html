@@ -1,18 +1,24 @@
 ---
 layout: default
-title: Home
+title: Magic
 meta: Magic for sale
-showbanner: yes
 bannertext: Magic Dust
 ---
 
 
 <div class="grid">
-	<h1>DInos</h1>
+	<h1>Dinos</h1>
 </div>
 
 <ul>
-{% for %}
-<li></li>
-{% endfor %}
+{% for magic in site.pages %}
+	{% if magic.category == 'magic' %}
+		<li>
+			<a href="magic.url">
+			<img src="{{site.baseurl}}/images/{{magic.img}}" alt="">
+			{{magic.name}}
+		</a>
+		</li>
+	{% end if %}
+{% end for %}
 </ul>

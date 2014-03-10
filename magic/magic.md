@@ -1,4 +1,10 @@
 ---
+layout: magic
+category: magic
+name: Yummy
+time_period: 200 BC
+diet: carnivore
+image: assets/magic.jpg
 ---
 
 Magic is fun 
@@ -14,3 +20,4 @@ Woohoo
 Link to [disney world](https://disneyworld.disney.go.com) website.
 
 ![Disney World](http://www.disneytouristblog.com/wp-content/uploads/2012/11/DSC_8109-as-Smart-Object-1-copy.jpg)
+
