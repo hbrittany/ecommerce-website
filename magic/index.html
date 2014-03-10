@@ -14,11 +14,11 @@ bannertext: Magic Dust
 {% for magic in site.pages %}
 	{% if magic.category == 'magic' %}
 		<li>
-			<a href="magic.url">
+			<a href="{{magic.url}}">
 			<img src="{{site.baseurl}}/images/{{magic.img}}" alt="">
 			{{magic.name}}
 		</a>
 		</li>
-	{% end if %}
-{% end for %}
+	{% endif %}
+{% endfor %}
 </ul>
