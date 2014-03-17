@@ -9,3 +9,4 @@ Term project
 
 © 2014 Brittany Hogg
 
+Licensed under the [MIT License](LICENSE).
