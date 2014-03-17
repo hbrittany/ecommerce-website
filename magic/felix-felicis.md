@@ -3,7 +3,7 @@ layout: magic
 category: Potion
 name: Felix Felicis
 type: Altering
-image: thing.jpg
+image: /assets/yellow-potion.jpg
 time: Until tasks are complete
 ---
 

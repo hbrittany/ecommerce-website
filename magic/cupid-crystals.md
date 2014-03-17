@@ -3,7 +3,7 @@ layout: magic
 category: Dust
 name: Cupid Crystals
 type: Love
-image: thing.jpg
+image: /assets/pink-dust.jpg
 time: 24 hours
 ---
 
