@@ -3,7 +3,7 @@ layout: magic
 category: Potion
 name: Amortentia
 type: Love
-image: /assets/pink-potion.jpg
+image: pink-potion.jpg
 time: Infinite
 ---
 

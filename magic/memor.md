@@ -3,7 +3,7 @@ layout: magic
 category: Potion
 name: Memor
 type: Altering
-image: /assets/blue-potion.jpg
+image: blue-potion.jpg
 time: 2 hours
 ---
 

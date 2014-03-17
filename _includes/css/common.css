@@ -33,3 +33,10 @@ html {
 	background-color:#fff;
 }
 
+.prd-list img {
+	width:60px;
+}
+
+.prd-list li {
+	padding-bottom:1rem;
+}

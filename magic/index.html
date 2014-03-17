@@ -7,12 +7,12 @@ showbanner: yes
 ---
 
 <h2>Potions</h2>
-<ul>
+<ul class="prd-list">
 {% for magic in site.pages %}
 	{% if magic.category == 'Potion' %}
 		<li>
 			<a href="{{site.baseurl}}{{magic.url}}">
-			<img src="{{site.baseurl}}/images/{{magic.img}}" alt="">
+			<img class="prd-list" src="{{site.baseurl}}/assets/{{magic.image}}" alt="">
 			{{magic.name}}
 		</a>
 		</li>
@@ -21,12 +21,12 @@ showbanner: yes
 </ul>
 
 <h2>Dusts</h2>
-<ul>
+<ul class="prd-list">
 {% for magic in site.pages %}
 	{% if magic.category == 'Dust' %}
 		<li>
 			<a href="{{site.baseurl}}{{magic.url}}">
-			<img src="{{site.baseurl}}/images/{{magic.img}}" alt="">
+			<img src="{{site.baseurl}}/assets/{{magic.image}}" alt="">
 			{{magic.name}}
 		</a>
 		</li>

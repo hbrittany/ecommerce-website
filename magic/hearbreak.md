@@ -3,7 +3,7 @@ layout: magic
 category: Dust
 name: Heartbreak
 type: Love
-image: /assets/red-dust.jpg
+image: red-dust.jpg
 time: Until task is complete
 ---
 

@@ -3,7 +3,7 @@ layout: magic
 category: Dust
 name: Dreamless Dust
 type: Altering
-image: /assets/blue-dust.jpg
+image: blue-dust.jpg
 time: Dependent on dreamer
 ---
 
