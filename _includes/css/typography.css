@@ -116,7 +116,7 @@ ul li:last {
 }
 
 ul li:before {
-  content:"⭐︎";
+  content:"";
   color: #3088d0;
   padding:-10px;
 

@@ -1,9 +1,10 @@
 ---
-layout: default
-category: potion
+layout: magic
+category: Potion
 name: Memor
 type: Altering
 image: assets/magic.jpg
+time: 2 hours
 ---
 
 

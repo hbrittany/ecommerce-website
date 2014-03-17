@@ -9,7 +9,7 @@ showbanner: yes
 <h2>Potions</h2>
 <ul>
 {% for magic in site.pages %}
-	{% if magic.category == 'potion' %}
+	{% if magic.category == 'Potion' %}
 		<li>
 			<a href="{{site.baseurl}}{{magic.url}}">
 			<img src="{{site.baseurl}}/images/{{magic.img}}" alt="">
@@ -23,7 +23,7 @@ showbanner: yes
 <h2>Dusts</h2>
 <ul>
 {% for magic in site.pages %}
-	{% if magic.category == 'dust' %}
+	{% if magic.category == 'Dust' %}
 		<li>
 			<a href="{{site.baseurl}}{{magic.url}}">
 			<img src="{{site.baseurl}}/images/{{magic.img}}" alt="">

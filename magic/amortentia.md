@@ -1,9 +1,10 @@
 ---
-layout: default
-category: potion
+layout: magic
+category: Potion
 name: Amortentia
-type: love
-image: assets/magic.jpg
+type: Love
+image: assets/pink-potion.jpg
+time: Infinite
 ---
 
 Amortentia is the world's strongest love potion.
