@@ -116,9 +116,10 @@ ul li:last {
 }
 
 ul li:before {
-  content:"⤇";
+  content:"⭐︎";
   color: #3088d0;
-  position: absolute;
+  padding:-10px;
+
 }
 
 ol li:before {
