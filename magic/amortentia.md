@@ -1,9 +1,8 @@
 ---
-layout: magic
-category: magic
-name: Yummy
-time_period: 200 BC
-diet: carnivore
+layout: default
+category: potion
+name: Amortentia
+type: love
 image: assets/magic.jpg
 ---
 
