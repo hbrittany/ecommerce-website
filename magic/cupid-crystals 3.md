@@ -6,5 +6,5 @@ type: Love
 image: thing.jpg
 ---
 
-Cupid Crystals is love crystals.
+Cupid Crystals
 
