@@ -5,6 +5,7 @@ name: Memor
 type: Altering
 image: blue-potion.jpg
 time: 2 hours
+price: $120.75
 ---
 
 
