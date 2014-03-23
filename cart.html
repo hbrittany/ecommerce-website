@@ -1,17 +1,64 @@
 ---
 layout: default
-title: Thank You!
+title: Shopping Cart
 meta: We appreciate your business
 ---
 
 <h1 class="yotta">{{page.title}}</h1>
 
-<div class="grid">
-	<div class="unit gutter unit-s-1 unit-m-1-2 unit-l-1-2">
-		<p> We appreciate your business very much! And hope you have a magical day! </p>
+<div class="grid cart">
+	<div class="unit unit-s-1 unit-m-1 unit-l-2-3">
+	<table>
+	<thead>
+    <tr>
+      <th scope="col">Product</th>
+      <th scope="col">Amount</th>
+      <th scope="col">Price</th>
+      <th scope="col">Sub Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Memor <img class="img-flex" src="{{site.baseurl}}/assets/blue-potion.jpg" alt=""></td>
+      <td>1</td>
+      <td>$120.75</td>
+      <td>$120.75</td>
+    </tr>
+  	</tbody>
+  	  <tbody>
+    <tr>
+      <td>Cupid Crystals <img class="img-flex" src="{{site.baseurl}}/assets/pink-dust.jpg" alt=""></td>
+      <td>2</td>
+      <td>$50.25</td>
+      <td>$100.50</td>
+    </tr>
+  	</tbody>
+
+	</table>
 	</div>
-	<div class="unit gutter unit-s-1 unit-m-1-2 unit-l-1-2">
-		<h3> Comments or Concerns? </h3>
-		<p> Please feel free to contact us at anytime about our business or products. For returns, please refer to the Returns and Exchanges page. </p>
+
+	<div class="unit-total unit-s-1 unit-m-2-3 unit-l-1-3">
+	<h2>Total</h2>
+	<table>
+  <tbody>
+    <tr>
+      <th scope="col">Products</th>
+      <td>$221.25</td>
+    </tr>
+  	</tbody>
+  	  <tbody>
+    <tr>
+      <th scope="col">Taxes</th>
+      <td>$33.18</td>
+    </tr>
+  	</tbody>
+  	 <tbody>
+    <tr>
+      <th scope="col">Final Total</th>
+      <td>$254.43</td>
+    </tr>
+  	</tbody>
+
+	</table>
 	</div>
 </div>
