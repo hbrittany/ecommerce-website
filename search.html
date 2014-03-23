@@ -1,17 +1,33 @@
 ---
 layout: default
-title: Thank You!
+title: Searching for?
 meta: We appreciate your business
 ---
 
 <h1 class="yotta">{{page.title}}</h1>
 
 <div class="grid">
-	<div class="unit gutter unit-s-1 unit-m-1-2 unit-l-1-2">
-		<p> We appreciate your business very much! And hope you have a magical day! </p>
+	<div class="unit gutter unit-s-1 unit-m-1 unit-l-1-2">
+		<p> Is this what you were looking for? </p>
 	</div>
-	<div class="unit gutter unit-s-1 unit-m-1-2 unit-l-1-2">
-		<h3> Comments or Concerns? </h3>
-		<p> Please feel free to contact us at anytime about our business or products. For returns, please refer to the Returns and Exchanges page. </p>
+</div>
+
+<div class="grid">
+	<div class="unit unit-s-1">
+		<div class"gutter">
+			<h4><a href="{{site.baseurl}}/magic/index.html" class="{% if page.url == '/about.html' %}current{% endif %}" class="micro">Products</a></h4>
+		</div>
+	</div>
+	
+	<div class="unit unit-s-1">
+		<div class"gutter">
+			<h4><a href="{{site.baseurl}}/magic/amortentia.html" class="{% if page.url == '/about.html' %}current{% endif %}" class="micro">Amrtentia</a></h4>
+		</div>
+	</div>
+</div>
+
+<div class="grid">
+	<div class="unit gutter unit-s-1 unit-m-1 unit-l-1-2">
+		<p>Not what you were trying to find? Sorry for the inconvenience.</p>
 	</div>
 </div>
