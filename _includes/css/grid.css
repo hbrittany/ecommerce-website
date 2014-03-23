@@ -20,7 +20,9 @@
 	float: left;
 	color:black;
 	padding-top:.5rem;
-	padding-bottom:.5rem;
+	padding-bottom:1rem;
+	border-left: solid 2rem white;
+	border-right: solid 2rem white;
 }
 
 .cart img {
@@ -108,14 +110,3 @@
 	}
 }
 
-.grid-total {
-	overflow:hidden;
-	background-color:#dec1f9;
-	padding:1rem;
-	color:#fff;
-}
-.total {
-	background-color:#dec1f9;
-	padding:1rem;
-	color:#fff;
-}
