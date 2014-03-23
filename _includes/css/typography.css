@@ -152,13 +152,24 @@ blockquote footer, cite{
   font-weight:bold;
 }
 
+table{
+  width:100%;
+}
+
 table caption {
   color:#0f50ae;
 }
 
 tr th{
     font-weight: bold;
-    color:#3088d0;
+    color:#FFFFFF;
+    background: #3088d0;
+    border-color: white;
+}
+
+td, th {
+  padding: 0.5rem;
+  text-align: left;
 }
 
 footer p{

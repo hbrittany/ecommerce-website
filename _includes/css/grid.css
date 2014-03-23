@@ -11,8 +11,21 @@
 	color:black;
 	padding-top:.5rem;
 	padding-bottom:.5rem;
+	overflow:hidden;
 }
 
+.unit-total {
+	background-color:#EDEDED;
+	width:100%;
+	float: left;
+	color:black;
+	padding-top:.5rem;
+	padding-bottom:.5rem;
+}
+
+.cart img {
+	max-width:100px;
+}
 .promo {
 	background-color: #3088d0;
 	color: #fff;
@@ -69,6 +82,11 @@
 	.unit-m-1-2{
 		width: 50%;
 	}
+
+	.unit-m-2-3 {
+		width:66.666%;
+	}
+
 }
 
 
@@ -88,4 +106,16 @@
 	.unit-l-2-3 {
 		width:66.666%;
 	}
+}
+
+.grid-total {
+	overflow:hidden;
+	background-color:#dec1f9;
+	padding:1rem;
+	color:#fff;
+}
+.total {
+	background-color:#dec1f9;
+	padding:1rem;
+	color:#fff;
 }
