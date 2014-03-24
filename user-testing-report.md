@@ -3,14 +3,15 @@
 User testing was conducted by Brittany Hogg on March 24th, 2014 between the times of 9am and 11am with the following participants:
 
 - Emily Prochnau
-- Brittany Robertson
+- Kayla Araujo
 - Zhongze Jiang
 
 ## Tasks
 
 1. Search for the product "Amrtentia" 
-2. Add Memor to cart then checkout
-3. Add 2 Cupid Crystals to cart
+2. Add 2 amounts of any product to cart
+3. Add Memor to cart then checkout
+
 
 ---
 
@@ -23,13 +24,13 @@ User testing was conducted by Brittany Hogg on March 24th, 2014 between the time
 - Added to cart
 - checked out
 
-### Brittany Robertson
+### Kayla Araujo
 
-- {He clicked on the link as expected…}
-- {He had troubles completing a specific task…}
-- {He asked these questions…}
-- {Fill in any observations that were important/relevant…}
-- etc.
+- Clicked on product page
+- found a product
+- filled in amount in field
+- added to cart
+- checked out
 
 ### Zhongze Jiang
 
