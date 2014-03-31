@@ -24,6 +24,7 @@ content {
   left:2rem;
 }
 
+/*--------- Links ---------*/
 a,
 a:link {
   color: #0f50ae;
@@ -38,6 +39,17 @@ a:focus,
 a:active {
   border-bottom-color: #aa89fa;
 }
+
+a:hover,
+a:active {
+  outline:none;
+}
+
+a:focus {
+  outline: 2px solid #aa89fa;
+}
+
+/*--------- Type ---------*/
 
 h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl,
@@ -100,6 +112,8 @@ small, .milli {
   line-height: 1.8984;
 }
 
+/*--------- Lists ---------*/
+
 ul {
   list-style-type: none;
   padding:0;
@@ -135,6 +149,8 @@ dl dt {
   color:#3088d0;
 }
 
+/*--------- Other ---------*/
+
 mark {
   background-color:#3088d0;
   color:white;
@@ -151,6 +167,8 @@ blockquote footer, cite{
   color:#dec1f9;
   font-weight:bold;
 }
+
+/*--------- Tables ---------*/
 
 table{
   width:100%;
@@ -172,6 +190,8 @@ td, th {
   padding-top: 0.5rem;
   text-align: left;
 }
+
+/*--------- Footer ---------*/
 
 footer p{
   background-color:#000;
